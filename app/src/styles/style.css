@@ -1,0 +1,107 @@
+
+body {
+    width: 100%;
+}
+
+/* */
+/* */
+/*  */
+/* HOME STYLE */
+/* */
+/* */
+/* */
+
+.navbar {
+    display: flex;
+    
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    background-color: white;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px 0;
+}
+
+.nav-item-home {
+    display: flex;
+    align-items: center;
+    
+    margin: 0 10px;
+    padding: 14px 15px;
+    border-radius: 400px;
+
+    text-decoration: none;
+    color: #333;
+
+    transition: all 0.2s ease;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+    padding: 14px 15px;
+    border-radius: 400px;
+
+    text-decoration: none;
+    color: #333;
+
+    transition: all 0.2s ease;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
+    background-color: rgb(224, 242, 254);
+    color: rgb(14, 165, 233);
+}
+
+.nav-item-home:hover {
+    transform: scale(1.05);
+    background-color: rgb(224, 242, 254);
+    color: rgb(14, 165, 233);
+}
+
+.nav-item.active {
+    background-color: rgb(56, 189, 248);
+    color: white;
+}
+
+.nav-item-home.active {
+    background-color: rgb(56, 189, 248);
+    color: white;
+}
+
+/* */
+/* */
+/*  */
+/* RESORCES STYLE */
+/* */
+/* */
+/* */
+
+.container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: fit-content;
+    height: fit-content;
+
+    padding: 20px;
+
+    background-color: rgb(56, 189, 248);
+}
