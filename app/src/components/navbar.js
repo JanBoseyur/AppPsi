@@ -5,11 +5,11 @@ import { Home, SquareText, ClipboardList } from "lucide-react";
 function Navbar() {
   return (
     
-    <div class = "body">
+    <div className = "body">
 
-      <nav class = "navbar">    
+      <nav className = "navbar">    
 
-        <div class = " nav-content">
+        <div className = "nav-content">
 
           <NavLink className = "nav-item" to="/resources">
             <SquareText size = {24}/>
